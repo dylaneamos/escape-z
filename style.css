@@ -1,0 +1,150 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111; /* Dark background color */
+    color: #fff; /* Text color */
+    text-align: center; /* Center align text */
+}
+
+header {
+    background-color: #222; /* Darker header background */
+    padding: 50px 0;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #111; /* Dark navigation background */
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f00; /* Red navigation link color */
+    font-weight: bold;
+}
+
+/* Section Styles */
+section {
+    padding: 50px;
+    text-align: left; /* Left-align section content */
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #f00; /* Red section header text color */
+}
+
+.room {
+    margin-bottom: 40px;
+    border: 1px solid #333; /* Dark border around rooms */
+    padding: 20px;
+    background-color: #222; /* Dark room background */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+.room img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f00; /* Red call-to-action button background */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Form Styles */
+form label,
+form select,
+form input[type="text"],
+form input[type="email"],
+form button[type="submit"] {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 300px; /* Limit form width */
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 478px) {
+    h1 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 14px;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+    section {
+        text-align: center;
+    }
+    .room {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    h2 {
+        font-size: 24px;
+    }
+}
+
+/* Additional Styling for Horrifying Theme */
+body {
+    background-image: url('background.jpg'); /* Add a horrifying background image */
+    background-size: cover;
+}
+
+.room {
+    background-color: #333; /* Darker room background */
+    color: #fff; /* Text color in rooms */
+}
+
+/* Add additional horrifying styles here as needed */

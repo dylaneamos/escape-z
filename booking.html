@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Book Your Adventure | Escape-Z</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Book Your Adventure</h1>
+        <p>Ready to face your fears? Book your escape room adventure now!</p>
+    </header>
+    <section>
+        <h2>Booking Form</h2>
+        <form id="booking-form" action="submit_booking.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="room-select">Select a Room:</label>
+            <select id="room-select" name="room" required>
+                <option value="" disabled selected>Select a Room</option>
+                <option value="room1">Room 1: The Enchanted Forest</option>
+                <option value="room2">Room 2: Lost in Space</option>
+                <option value="room3">Room 3: The Haunted Mansion</option>
+                <option value="room4">Room 4: The Time Machine</option>
+                <option value="room5">Room 5: Underwater Odyssey</option>
+                <option value="room6">Room 6: The Mysterious Island</option>
+                <option value="room7">Room 7: The Art Heist</option>
+                <option value="room8">Room 8: The Jungle Expedition</option>
+            </select>
+            <button type="submit" class="cta-button">Book Now</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2023 Escape-Z | Designed by <a href="www.dylaneamos.com">Amos</a></p>
+    </footer>
+</body>
+</html>
